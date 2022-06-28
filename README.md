@@ -17,7 +17,7 @@ module "get_pwd_ad" {
 ```
 
 
-##### Then you can use the out everywhere in this way 
+##### Then you can use the output everywhere in this way 
 ```erlang
 MD_USERPWD            = module.get_pwd_ad.secret_value
 ```
