@@ -16,7 +16,7 @@ data "azurerm_key_vault_secret" "pwd" {
 
 output "secret_value" {
   value     = data.azurerm_key_vault_secret.pwd.value
-  #sensitive = true
+  sensitive = true
 }
 
 
